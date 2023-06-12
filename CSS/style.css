@@ -423,7 +423,7 @@
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   line-height: auto;
   color: #000000;
 }
@@ -451,11 +451,13 @@
 }
 .destination__card {
   width: 22%;
-  height: 325px;
+  height: 300px;
   position: relative;
   overflow: hidden;
   background: #c4c4c4;
   border-radius: 8px;
+  margin-bottom: 170px;
+  margin-top: 30px;
 }
 .destination__card img {
   width: 100%;
@@ -474,7 +476,7 @@
   flex-direction: column;
   width: 50%;
   background-color: #ffffff;
-  border-radius: 0px 6px 0px 0px;
+  border-radius: 0px 16px 0px 0px;
 }
 .destination__card p span:nth-child(odd) {
   font-family: "Inter";
