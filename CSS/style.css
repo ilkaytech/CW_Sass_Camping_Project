@@ -78,7 +78,64 @@
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../../assets/image1.png);
+  background-image: url("../../assets/image1.png");
+}
+.home__form {
+  width: 45%;
+}
+.home__form h2 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 80px;
+  color: #202336;
+}
+.home__form h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 27px;
+  color: #202336;
+}
+.home__form hr {
+  width: 2rem;
+  border: 1px solid;
+}
+.home__form form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  gap: 0.5rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.home__form form select {
+  width: 48%;
+  height: 2.3rem;
+  border: 0.8px solid;
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: auto;
+}
+.home__form--button {
+  margin: 1rem 0px;
+  border: none;
+  background: rgb(251, 143, 29);
+  border-radius: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9rem;
+  width: 90px;
+  height: 30px;
+  color: rgb(255, 255, 255);
 }
 
 /*# sourceMappingURL=style.css.map */

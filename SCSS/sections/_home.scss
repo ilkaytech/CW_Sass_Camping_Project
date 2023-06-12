@@ -6,11 +6,55 @@
   gap: 2rem;
   @include flexMix(flex);
   &__image {
-    height: 500px;
+    // height: 500px;
+    // width: 45%;
+    // background-position: center center;
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    // background-image: url(../../assets/image1.png);
+    @include bgImage(500px, 45%, "../../assets/image1.png");
+  }
+  &__form {
     width: 45%;
-    background-position: center center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(../../assets/image1.png);
+    h2 {
+      @include fontMix("Playfair Display", normal, 700, 4rem, 80px);
+      color: $headerColor;
+    }
+    h3 {
+      @include fontMix("Inter", normal, 600, 1.4rem, 27px);
+      color: $headerColor;
+    }
+    hr {
+      width: 2rem;
+      border: 1px solid;
+    }
+    form {
+      @include flexMix(flex, space-between);
+      padding: 1rem 0;
+      gap: 0.5rem;
+      width: 100%;
+      flex-wrap: wrap;
+      select {
+        width: 48%;
+        height: 2.3rem;
+        border: 0.8px solid;
+        border-radius: 6px;
+        padding: 0.5rem;
+        @include fontMix("Inter", normal, 400, 0.9rem, auto);
+      }
+    }
+    &--button {
+      margin: 1rem 0px;
+      border: none;
+      background: rgb(251, 143, 29);
+      border-radius: 8px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 0.9rem;
+      width: 90px;
+      height: 30px;
+      color: rgb(255, 255, 255);
+    }
   }
 }

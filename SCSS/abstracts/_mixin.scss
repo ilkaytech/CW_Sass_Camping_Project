@@ -11,3 +11,11 @@
   font-size: $size;
   line-height: $height;
 }
+@mixin bgImage($height, $width, $url) {
+  height: $height;
+  width: $width;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url($url);
+}
