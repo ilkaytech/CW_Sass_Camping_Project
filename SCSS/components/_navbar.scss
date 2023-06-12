@@ -10,8 +10,8 @@
     display: none;
   }
   &__logo {
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: 180px;
   }
   &__links {
     display: flex;
@@ -21,6 +21,7 @@
       padding-right: 0.5rem;
     }
     &--home {
+      cursor: pointer;
       color: $headerColor;
       border: none;
       background-color: $mainColor;
@@ -40,17 +41,19 @@
     }
     &--login {
       background-color: $mainColor;
-      border-radius: 1px solid $btnBorderColor;
+      border: 1px solid $btnBorderColor;
       border-radius: 8px;
       @include fontMix(Inter, normal, 500, 1rem, 30px);
       color: $btnColor;
       width: 90px;
+      cursor: pointer;
     }
     &--register {
       @extend .header__links--login;
       border: none;
       background-color: $btnColor;
       color: $mainColor;
+      cursor: pointer;
     }
   }
 }
