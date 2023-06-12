@@ -63,4 +63,22 @@
   color: #ffffff;
 }
 
+.home {
+  margin: 1rem auto;
+  width: 90%;
+  min-height: 40vh;
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__image {
+  height: 500px;
+  width: 45%;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/image1.png);
+}
+
 /*# sourceMappingURL=style.css.map */
