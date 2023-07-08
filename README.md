@@ -37,7 +37,7 @@ Sass Camping Website Design (folder)
 
 ## Outcome
 
-🔗 [example project](https://sass-camping.netlify.app)
+🔗 [Camping Website](https://sass-camping.netlify.app)
 
 ![Project  Snapshot](./Sass.gif)
 
