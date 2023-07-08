@@ -1,12 +1,8 @@
-# Project-008 : Sass Camping Website Design
+# Project : Sass Camping Website Design
 
 ## Description
 
 Project aims to create website site using sass.
-
-## Problem Statement
-
-- Your company has recently started on a project that aims to create a company website page. So you and your colleagues have started to work on the project.
 
 ## Project Skeleton
 
@@ -39,13 +35,11 @@ Sass Camping Website Design (folder)
         |----assets (folder)
 ```
 
-## Expected Outcome
+## Outcome
 
-🔗 ![Project  Snapshot](./Sass.gif)
+🔗 [example project](https://sass-camping.netlify.app)
 
-## Objective
-
-Make a web page like in the [example project](https://sass-camping.netlify.app).
+![Project  Snapshot](./Sass.gif)
 
 ### The following issues are covered in the project;
 
@@ -56,12 +50,6 @@ Make a web page like in the [example project](https://sass-camping.netlify.app).
 - CSS
 
 - Sass / Scss
-
-### At the end of the project, students will be able to;
-
-- improve coding skills within HTML, CSS & Sass/Scss
-
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
 ## Resources
 
