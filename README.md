@@ -45,11 +45,11 @@ Sass Camping Website Design (folder)
 
 - HTML
 
-- Js
-
 - CSS
 
 - Sass / Scss
+
+- Js
 
 ## Resources
 
